@@ -11,10 +11,12 @@ export default class App extends React.Component {
   }
 
   addMeaningOfLife = () => {
-    this.setState({ meaningOfLife: this.state.meaningOfLife + 1 }, () => {
-      console.log("After callback: " + this.state.meaningOfLife);
-    });
-    console.log("Before callback: " + this.state.meaningOfLife);
+    // To use the prevState so as to guarantee the value is the latest one
+    this.setState((prevState, prevProps) => {
+      return { meaningOfLife: prevState.meaningOfLife + 1 }
+    },
+      () => console.log(this.state.meaningOfLife)
+    )
   }
 
   render () {
