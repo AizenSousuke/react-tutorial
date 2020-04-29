@@ -10,6 +10,13 @@ export default class App extends React.Component {
     }
   }
 
+  addMeaningOfLife = () => {
+    this.setState({ meaningOfLife: this.state.meaningOfLife + 1 }, () => {
+      console.log("After callback: " + this.state.meaningOfLife);
+    });
+    console.log("Before callback: " + this.state.meaningOfLife);
+  }
+
   render () {
     return (
       <div className="App">
@@ -18,6 +25,9 @@ export default class App extends React.Component {
           <p>
             Meaning of life: { this.state.meaningOfLife }
           </p>
+          <button className="btn" onClick={this.addMeaningOfLife}>
+                  Add meaning of life <span className="badge badge-primary"></span>
+          </button>
         </header>
       </div>
     );
