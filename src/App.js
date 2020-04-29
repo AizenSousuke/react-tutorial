@@ -13,7 +13,7 @@ export default class App extends React.Component {
   addMeaningOfLife = () => {
     // To use the prevState so as to guarantee the value is the latest one
     this.setState((prevState, prevProps) => {
-      return { meaningOfLife: prevState.meaningOfLife + 1 }
+      return { meaningOfLife: prevState.meaningOfLife + prevProps.increment }
     },
       () => console.log(this.state.meaningOfLife)
     )
