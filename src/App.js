@@ -3,11 +3,20 @@ import logo from './logo.svg';
 import './App.css';
 
 export default class App extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       meaningOfLife: 42
     }
+    console.log("constructor!");
+  }
+
+  componentDidMount() {
+    console.log("componentDidMount!");
+  }
+
+  componentDidUpdate() {
+    console.log("componentDidUpdate!");
   }
 
   addMeaningOfLife = () => {
@@ -27,8 +36,11 @@ export default class App extends React.Component {
           <p>
             Meaning of life: { this.state.meaningOfLife }
           </p>
-          <button className="btn" onClick={this.addMeaningOfLife}>
+          <button className="btn" onClick={ this.addMeaningOfLife }>
                   Add meaning of life <span className="badge badge-primary"></span>
+          </button>
+          <button className="btn" onClick={ this.toggleLifecycle }>
+                  Toggle Lifecycle <span className="badge badge-primary"></span>
           </button>
         </header>
       </div>
