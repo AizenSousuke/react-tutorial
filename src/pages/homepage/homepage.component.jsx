@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import './homepage.styles.scss';
-import MenuItem from '../../component/homepage/header/menu/menu.component'
+import Directory from '../../component/homepage/directory/directory.component';
 
 class HomePage extends Component {
     render() {
@@ -8,23 +8,8 @@ class HomePage extends Component {
             <div className="homepage">
                 <div className="header">
                     <div className="header-image"><img src="https://via.placeholder.com/128" alt="ecommerce-store" /></div>
-                    <div className="menu">
-                        <MenuItem />
-                    </div>
                 </div>
-                <div className="content">
-                    <div className="row">
-                        <div className="content-block">Content block</div>
-                        <div className="content-block">Content block</div>
-                    </div>
-                    <div className="row">
-                        <div className="content-block">Content block</div>
-                    </div>
-                    <div className="row">
-                        <div className="content-block">Content block</div>
-                        <div className="content-block">Content block</div>
-                    </div>
-                </div>
+                <Directory />
                 <div className="footer">
                     <div className="footer-menu">
                         <li className="footer-link"><a href="\">Home</a></li>

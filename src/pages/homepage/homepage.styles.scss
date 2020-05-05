@@ -3,11 +3,9 @@
     flex-direction: column;
     align-items: center;
     padding: 20px 80px;
-    margin: 25px;
     font-family: 'Manrope', sans-serif;
     font-size: large;
     font-weight: 400;
-    box-sizing: border-box;
 
     .header {
         align-items: center;
@@ -27,21 +25,6 @@
                     text-decoration: none;
                 }
             }
-        }
-    }
-
-    .content {
-        justify-content: center;
-        text-align: center;
-        .row .content-block {
-            border: solid;
-            border-width: thin;
-            border-radius: 10px;
-            margin: 20px;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
         }
     }
 
