@@ -11,27 +11,28 @@ class Directory extends React.Component {
 				{
 					id: 1,
 					title: "Men",
-					imageUrl: "https://placehold.it/512x512",
+					imageUrl: "https://specials-images.forbesimg.com/imageserve/992893220/960x0.jpg?fit=scale",
 				},
 				{
 					id: 2,
 					title: "Men",
-					imageUrl: "https://placehold.it/512x512",
+					imageUrl: "https://specials-images.forbesimg.com/imageserve/992893220/960x0.jpg?fit=scale",
 				},
 				{
 					id: 3,
 					title: "Men",
-					imageUrl: "https://placehold.it/512x512",
+					imageUrl: "https://specials-images.forbesimg.com/imageserve/992893220/960x0.jpg?fit=scale",
 				},
 				{
 					id: 4,
 					title: "Men",
-					imageUrl: "https://placehold.it/512x512",
-				},
+					imageUrl: "https://specials-images.forbesimg.com/imageserve/992893220/960x0.jpg?fit=scale",
+                    size: 'large'
+                },
 				{
 					id: 5,
 					title: "WoMen",
-                    imageUrl: "https://placehold.it/512x512",
+                    imageUrl: "https://specials-images.forbesimg.com/imageserve/992893220/960x0.jpg?fit=scale",
                     size: 'large'
 				},
 			],
