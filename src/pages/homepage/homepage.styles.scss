@@ -5,16 +5,22 @@
     padding: 20px 80px;
     font-family: 'Manrope', sans-serif;
     font-size: large;
+    font-style: italic;
     font-weight: 400;
 
     .header {
         align-items: center;
         font-weight: 500;
-        .header-image:hover {
-            transform: scale(1.2, 1.2);
-            transform-origin: center center;
-            transition: transform 0.5s ease-in;
-            transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        .header-image {
+            cursor: pointer;
+            overflow: hidden;
+        
+            & :hover {
+                transform: scale(1.2, 1.2);
+                transform-origin: center center;
+                transition: transform 0.5s ease-in;
+                transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            }
         }
         .menu {
             justify-content: space-evenly;

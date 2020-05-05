@@ -7,7 +7,9 @@ class HomePage extends Component {
         return (
             <div className="homepage">
                 <div className="header">
-                    <div className="header-image"><img src="https://via.placeholder.com/128" alt="ecommerce-store" /></div>
+                    <div className="header-image">
+                        <img src="http://loremflickr.com/800/200/teens" alt="ecommerce-store" />
+                    </div>
                 </div>
                 <Directory />
                 <div className="footer">

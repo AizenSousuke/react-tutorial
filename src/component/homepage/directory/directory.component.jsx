@@ -10,29 +10,29 @@ class Directory extends React.Component {
 			sections: [
 				{
 					id: 1,
-					title: "Men",
-					imageUrl: "https://specials-images.forbesimg.com/imageserve/992893220/960x0.jpg?fit=scale",
+					title: "Sale",
+					imageUrl: "http://loremflickr.com/800/800/sale",
 				},
 				{
 					id: 2,
-					title: "Men",
-					imageUrl: "https://specials-images.forbesimg.com/imageserve/992893220/960x0.jpg?fit=scale",
+					title: "Teens",
+					imageUrl: "http://loremflickr.com/800/800/teens",
 				},
 				{
 					id: 3,
-					title: "Men",
-					imageUrl: "https://specials-images.forbesimg.com/imageserve/992893220/960x0.jpg?fit=scale",
+					title: "Kids",
+					imageUrl: "http://loremflickr.com/800/800/kids",
 				},
 				{
 					id: 4,
 					title: "Men",
-					imageUrl: "https://specials-images.forbesimg.com/imageserve/992893220/960x0.jpg?fit=scale",
+					imageUrl: "http://loremflickr.com/800/800/men",
                     size: 'large'
                 },
 				{
 					id: 5,
-					title: "WoMen",
-                    imageUrl: "https://specials-images.forbesimg.com/imageserve/992893220/960x0.jpg?fit=scale",
+					title: "Women",
+                    imageUrl: "http://loremflickr.com/800/800/women",
                     size: 'large'
 				},
 			],
