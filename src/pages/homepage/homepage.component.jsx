@@ -6,6 +6,7 @@ class HomePage extends Component {
     render() {
         return (
             <div className="homepage">
+                <h1>Home Page</h1>
                 <div className="header">
                     <div className="header-image">
                         <img src="http://loremflickr.com/800/200/teens" alt="ecommerce-store" />
